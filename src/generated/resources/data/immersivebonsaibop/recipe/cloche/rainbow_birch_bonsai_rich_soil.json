@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "immersivebonsaibop:rainbow_birch_bonsai"
+  },
+  "render": {
+    "type": "immersiveengineering:generic",
+    "block": "biomesoplenty:rainbow_birch_sapling"
+  },
+  "results": [
+    {
+      "count": 4,
+      "id": "minecraft:birch_log"
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "count": 1,
+        "id": "minecraft:stick"
+      }
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 1800
+}

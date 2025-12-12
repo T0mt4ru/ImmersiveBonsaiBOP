@@ -22,17 +22,10 @@ repositories {
     maven {
         url "https://cursemaven.com"
     }
-    maven {
-        url "https://maven.theillusivec4.top/"
-        content { includeGroup "com.glitchfiend"}
-    }
-    maven{
-        url "https://maven.blamejared.com"
-    }
 }
 
 base {
-    archivesName = "${mod_id}-${minecraft_version}-neoforge"
+    archivesName = "${mod_id}-${minecraft_version}-neoforge-"
 }
 
 // Mojang ships Java 21 to end users in 1.21.1, so mods should target Java 21.
@@ -82,7 +75,6 @@ neoForge {
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
             programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
-            // programArguments.add '--validate=false'
         }
 
         // applies to all the run configs above
@@ -145,9 +137,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-     implementation "curse.maven:immersive-engineering-231951:6733669"
-     implementation "curse.maven:immersive-bonsai-1401479:7313893"
-     implementation "curse.maven:biomes-o-plenty-220318:7251965-sources"
+    implementation "curse.maven:immersive-engineering-231951:6733669"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

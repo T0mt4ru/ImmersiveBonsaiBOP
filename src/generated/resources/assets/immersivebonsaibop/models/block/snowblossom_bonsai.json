@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "render_type": "minecraft:cutout_mipped",
-  "textures": {
-    "cross": "biomesoplenty:block/snowblossom_sapling"
-  }
-}

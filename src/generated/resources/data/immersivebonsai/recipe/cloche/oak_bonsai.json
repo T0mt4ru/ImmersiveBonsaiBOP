@@ -1,0 +1,34 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "immersivebonsai:oak_bonsai"
+  },
+  "render": {
+    "type": "immersiveengineering:generic",
+    "block": "minecraft:oak_sapling"
+  },
+  "results": [
+    {
+      "count": 4,
+      "id": "minecraft:oak_log"
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "count": 1,
+        "id": "minecraft:stick"
+      }
+    },
+    {
+      "chance": 0.005,
+      "output": {
+        "count": 1,
+        "id": "minecraft:apple"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 3600
+}

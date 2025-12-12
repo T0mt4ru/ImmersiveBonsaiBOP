@@ -138,7 +138,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     implementation "curse.maven:immersive-engineering-231951:6733669"
-    implementation "curse.mavem:biomesoplenty-220318:7251965"
+    implementation "curse.maven:biomesoplenty-220318:7251965"
     implementation "curse.maven:immersivebonsai-1401479:7313893"
 }
 

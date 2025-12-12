@@ -1,0 +1,16 @@
+{
+  "type": "immersivebonsai:bonsai_crafting",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "biomesoplenty:yellow_maple_sapling"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersivebonsaibop:yellow_maple_bonsai"
+  }
+}

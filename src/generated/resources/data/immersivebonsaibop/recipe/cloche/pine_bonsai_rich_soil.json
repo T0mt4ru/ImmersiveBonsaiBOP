@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "immersivebonsaibop:pine_bonsai"
+  },
+  "render": {
+    "type": "immersiveengineering:generic",
+    "block": "biomesoplenty:pine_sapling"
+  },
+  "results": [
+    {
+      "count": 4,
+      "id": "biomesoplenty:pine_log"
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "count": 1,
+        "id": "minecraft:stick"
+      }
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 1800
+}

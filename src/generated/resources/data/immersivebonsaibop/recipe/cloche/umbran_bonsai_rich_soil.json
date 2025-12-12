@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "immersivebonsaibop:umbran_bonsai"
+  },
+  "render": {
+    "type": "immersiveengineering:generic",
+    "block": "biomesoplenty:umbran_sapling"
+  },
+  "results": [
+    {
+      "count": 4,
+      "id": "biomesoplenty:umbran_log"
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "count": 1,
+        "id": "minecraft:stick"
+      }
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 1800
+}

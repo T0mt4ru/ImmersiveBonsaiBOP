@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "immersivebonsaibop:fir_bonsai"
+  },
+  "render": {
+    "type": "immersiveengineering:generic",
+    "block": "biomesoplenty:fir_sapling"
+  },
+  "results": [
+    {
+      "count": 4,
+      "id": "biomesoplenty:fir_log"
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "count": 1,
+        "id": "minecraft:stick"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 3600
+}

@@ -25,7 +25,7 @@ repositories {
 }
 
 base {
-    archivesName = "${mod_id}-${minecraft_version}-neoforge-"
+    archivesName = "${mod_id}-${minecraft_version}-neoforge"
 }
 
 // Mojang ships Java 21 to end users in 1.21.1, so mods should target Java 21.
@@ -138,6 +138,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     implementation "curse.maven:immersive-engineering-231951:6733669"
+    implementation "curse.mavem:biomesoplenty-220318:7251965"
+    implementation "curse.maven:immersivebonsai-1401479:7313893"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
